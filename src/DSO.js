@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from  './Header';
-import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
-function DSO() {
-    return (
-        <Header />
+
+function Dso() {
+  return (
 <div className="main-container">
+{/* <Header /> */}
   <div className="column">
     <div className="col-sm-auto">
       <div className="col-md-auto flex justify-content-center">
@@ -31,17 +31,24 @@ function DSO() {
               <option value="28">28</option>
             </select>
           </div>
-        
-          <button className="btn btn-success btn-sm" type="submit" name="submit">Calculate DSO </button>
+        <div>
+        <button className="btn btn-success btn-sm" type="submit" name="submit">Calculate DSO </button>
+        </div>
+        <div>
+          <Link to="/">
+            <button className="btn btn-warning" type="button">Home</button>
+          </Link> 
+        </div>
+       
          {/* <form/> */}
   
       </div>
     </div>
   </div>
-  <Footer />
+  {/* <Footer /> */}
 </div>
     );
 
 }
 
-export default DSO;
+export default Dso;
