@@ -15,29 +15,29 @@ function Cei() {
             <p className="description-text">Enter your beginning receivables balance</p>
             <input type="number" name="beg_ar_bal" placeholder="Beginning AR balance" />
           </div>
-        
+
           <div className="variable-input">
             <p classNAme="description-text">Enter your current credit month sales</p>
             <input type="number" name="cur_cr_sales" placeholder="Total curr month sales" />
           </div>
-      
+
           <div className="variable-input">
             <p className="description-text">Enter your total ending receivables balance</p>
             <input type="number" name="end_tot_bal" placeholder="End total receivables" />
           </div>
-      
+
           <div className="variable-input">
             <p className="description-text">Enter your total current month receivables balance</p>
             <input type="number" name="end_cur_bal" placeholder="End curr receivables" />
           </div>
-         
-         <div>
-         <button className="btn btn-success btn-sm" type="submit" name="submit">Calculate CEI</button> 
+
+         <div className="button">
+         <button className="btn btn-success btn-sm" type="submit" name="submit">Calculate CEI</button>
          </div>
-          <div>
+          <div className="button">
           <Link to="/">
             <button className="btn btn-warning" type="button">Home</button>
-          </Link> 
+          </Link>
         </div>
         {/* </form> */}
         {/* <br> */}

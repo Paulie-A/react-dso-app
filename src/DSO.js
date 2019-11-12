@@ -16,12 +16,12 @@ function Dso() {
             <p class="description-text">Enter your total receivables balance</p>
             <input type="number" name="Ar_bal" placeholder="AR Balance" />
           </div>
-     
+
           <div className="variable-input">
             <p className="description-text">Enter your current credit sales</p>
             <input type="number" name="credit_sales" placeholder="Credit Sales" />
           </div>
-     
+
           <div className="variable-select">
             <p className="description-text">Select the number of days in current month</p>
             <select type="number" name="days">
@@ -31,17 +31,17 @@ function Dso() {
               <option value="28">28</option>
             </select>
           </div>
-        <div>
+        <div className="button">
         <button className="btn btn-success btn-sm" type="submit" name="submit">Calculate DSO </button>
         </div>
-        <div>
+        <div className="button">
           <Link to="/">
             <button className="btn btn-warning" type="button">Home</button>
-          </Link> 
+          </Link>
         </div>
-       
+
          {/* <form/> */}
-  
+
       </div>
     </div>
   </div>
