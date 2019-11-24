@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 
-function Cei() {
+class Cei extends Component {
+  constructor(props){
+    super(props);
+    this.state = "";
+  }
+  render(){
     return (
         <div className="main-container">
   <div className="column">
@@ -47,6 +52,7 @@ function Cei() {
 </div>
 
     );
+}
 }
 
 export default Cei;

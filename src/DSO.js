@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-
-function Dso() {
+class Dso extends Component {
+constructor(props){
+  super(props);
+  this.state = "";
+}
+render(){
   return (
 <div className="main-container">
 {/* <Header /> */}
@@ -47,8 +51,8 @@ function Dso() {
   </div>
   {/* <Footer /> */}
 </div>
-    );
-
+      );
+  }
 }
 
 export default Dso;
