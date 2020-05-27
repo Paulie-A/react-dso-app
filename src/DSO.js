@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Dso extends Component {
 constructor(props){
   super(props);
-  this.state = { ArBal: "", CrSales: "", days: "", dso: "" }; 
+  this.state = { ArBal: "", CrSales: "", days: "31", dso: "" }; 
 
   this.handleChange = this.handleChange.bind(this);
   this.handleSubmit = this.handleSubmit.bind(this);
@@ -24,8 +24,6 @@ handleSubmit(event) {
   this.calcDso()
   event.preventDefault();
 }
-
-
 
 render(){
   return (
@@ -49,7 +47,6 @@ render(){
             <input type="number" name="CrSales" value={this.state.CrSales} onChange={this.handleChange} placeholder="Credit Sales" />
             </label>
           </div>
-
           <div className="variable-select">
             <p className="description-text">Select the number of days in current month</p>
             <select type="number" name="days" value={this.state.days} onChange={this.handleChange}>

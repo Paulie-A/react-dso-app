@@ -4,7 +4,7 @@ import Footer from './Footer';
 import Home from './Home';
 import Dso from './Dso';
 import Cei from './Cei';
-import {Route, Switch, NavLink} from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-
       <Switch>
      <Route exact path='/' component={Home} />
      <Route exact path='/dso' component={Dso} />
