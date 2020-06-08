@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "//paulie-a.github.io/react-dso-app/static/css/main.55fcac45.chunk.css",
+    "main.js": "//paulie-a.github.io/react-dso-app/static/js/main.31451725.chunk.js",
+    "main.js.map": "//paulie-a.github.io/react-dso-app/static/js/main.31451725.chunk.js.map",
+    "runtime-main.js": "//paulie-a.github.io/react-dso-app/static/js/runtime-main.e7f2bfc0.js",
+    "runtime-main.js.map": "//paulie-a.github.io/react-dso-app/static/js/runtime-main.e7f2bfc0.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "//paulie-a.github.io/react-dso-app/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.0569bec3.chunk.js": "//paulie-a.github.io/react-dso-app/static/js/2.0569bec3.chunk.js",
+    "static/js/2.0569bec3.chunk.js.map": "//paulie-a.github.io/react-dso-app/static/js/2.0569bec3.chunk.js.map",
+    "index.html": "//paulie-a.github.io/react-dso-app/index.html",
+    "precache-manifest.dca60994edcfeb9ac05c1203b17f5a8c.js": "//paulie-a.github.io/react-dso-app/precache-manifest.dca60994edcfeb9ac05c1203b17f5a8c.js",
+    "service-worker.js": "//paulie-a.github.io/react-dso-app/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "//paulie-a.github.io/react-dso-app/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.55fcac45.chunk.css.map": "//paulie-a.github.io/react-dso-app/static/css/main.55fcac45.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7f2bfc0.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.0569bec3.chunk.js",
+    "static/css/main.55fcac45.chunk.css",
+    "static/js/main.31451725.chunk.js"
+  ]
+}
