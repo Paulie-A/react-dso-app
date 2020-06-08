@@ -13,13 +13,13 @@ function Home() {
 
               <h1>Days Sales Outstanding</h1>
               <p>Calculate your days sales outstanding</p>
-              <Link to="/Dso">
+              <Link to={process.env.PUBLIC_URL + '/dso'}>
                 <button className="btn btn-primary" type="button">Calculate DSO</button>
               </Link>
               <hr />
               <h1>Collection Effectiveness Index</h1>
               <p>Calculate the effectiveness of your collections team</p>
-              <Link to="/Cei">
+              <Link to={process.env.PUBLIC_URL + '/cei'}>
                 <button className="btn btn-primary" type="button">Calculate CEI</button>
               </Link>
               <hr />
