@@ -4,13 +4,14 @@ import Footer from './Footer';
 import Home from './Home';
 import Dso from './Dso';
 import Cei from './Cei';
-import { Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
+    <HashRouter basename="/">
       <Header />
       <Switch>
      {/* <Route exact path='/' component={Home} /> */}
@@ -21,6 +22,7 @@ function App() {
      <Route exact path={process.env.PUBLIC_URL + '/cei'} component={Cei} />
    </Switch>
 <Footer />
+</HashRouter>
 </div>
   );
 }
