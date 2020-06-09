@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a79e524fd6944964a0ddad3a5550fb93",
+    "revision": "b4a3ca7fca4f8b929a966c3ea4124a72",
     "url": "//paulie-a.github.io/react-dso-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//paulie-a.github.io/react-dso-app/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "aed563a48849a365f490",
+    "revision": "32ed2e876f6ab17cf38c",
     "url": "//paulie-a.github.io/react-dso-app/static/css/main.55fcac45.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//paulie-a.github.io/react-dso-app/static/js/2.33c83744.chunk.js"
   },
   {
-    "revision": "aed563a48849a365f490",
-    "url": "//paulie-a.github.io/react-dso-app/static/js/main.8a0e67c3.chunk.js"
+    "revision": "32ed2e876f6ab17cf38c",
+    "url": "//paulie-a.github.io/react-dso-app/static/js/main.56d6a3a3.chunk.js"
   },
   {
     "revision": "32942a787bb336f7172a",
