@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Home() {
+// function Home() {
+  class Home extends Component {
+    render(){
   return (
     <div className="DSOApp">
       <div className="main-container">
@@ -29,6 +31,7 @@ function Home() {
       </div>
     </div>
   );
+    }
 }
 
 export default Home;
