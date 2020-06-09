@@ -60,7 +60,8 @@ render(){
         <button className="btn btn-success btn-sm" type="submit" name="submit" onClick={this.calcDso}>Calculate DSO </button>
         </div>
         <div className="button">
-          <Link to="/">
+          {/* <Link to="/"> */}
+          <Link to={process.env.PUBLIC_URL + '/'}>
             <button className="btn btn-warning" type="button">Home</button>
           </Link>
         </div>
