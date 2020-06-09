@@ -15,14 +15,11 @@ function App() {
       <Header />
       <Switch>
      <Route exact path='/' component={Home} />
-     {/* <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} /> */}
      <Route exact path='/dso' component={Dso} />
-     {/* <Route exact path={process.env.PUBLIC_URL + '/dso'} component={Dso} /> */}
      <Route exact path='/cei' component={Cei} />
-     {/* <Route exact path={process.env.PUBLIC_URL + '/cei'} component={Cei} /> */}
    </Switch>
 <Footer />
-</HashRouter>
+ </HashRouter>
 </div>
   );
 }

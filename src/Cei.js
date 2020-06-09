@@ -54,8 +54,7 @@ class Cei extends Component {
          <button className="btn btn-success btn-sm" type="submit" name="submit">Calculate CEI</button>
          </div>
           <div className="button">
-          {/* <Link to="/"> */}
-          <Link to={process.env.PUBLIC_URL + '/'}>
+          <Link to='/'>
             <button className="btn btn-warning" type="button">Home</button>
           </Link>
         </div>
