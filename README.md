@@ -2,16 +2,15 @@
 
 The DSO App is a simple React App for Calculating DSO (Days Sales Outstanding) and CEI (Collection Effectiveness Index).
 
+I was inspired to create this app as DSO/CEI is a key performance indicator in my current profession.
+
 This app was created using create-react-app and uses the Bootstrap framework.
 
 ## Usage
 
 ### Starting the App
 
-`npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run this app locally run `npm start` in node and open http://localhost:3000 in the browser.
 
 ### Usage
 
@@ -34,8 +33,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 CEI calculation is not yet working correctly as intended and this features remains work in progress.
 
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 
