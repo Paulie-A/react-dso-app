@@ -15,12 +15,17 @@ class Cei extends Component {
   handleChange(e) {
     this.setState({ [e.target.name] : e.target.value });
   }
-  
+
   calcCei(){
-    let ceiValue =  Math.ceil( (this.state.BegArBal + this.state.CurCrSales - this.state.EndTotBal) / (this.state.BegArBal + this.state.CurCrSales - this.state.EndCurBal) * 100);
+    let BegArBal = this.state.BegArBal;
+    let CurCrSales = this.state.CurCrSales;
+    let EndTotBal = this.state.EndTotBal;
+    let EndCurBal = this.state.EndCurBal;
+    // let ceiValue =  Math.round((this.state.BegArBal + this.state.CurCrSales - this.state.EndTotBal) / (this.state.BegArBal + this.state.CurCrSales - this.state.EndCurBal) * 100);
+    let ceiValue =  Math.round( (BegArBal + CurCrSales - EndTotBal) / (BegArBal + CurCrSales - EndCurBal) * 100);
     this.setState({cei: ceiValue});
   }
-  
+
   handleSubmit(event) {
     this.calcCei()
     event.preventDefault();
@@ -39,7 +44,7 @@ class Cei extends Component {
             <input type="number" name="BegArBal" value={this.state.BegArBal} onChange={this.handleChange} placeholder="Beginning AR balance" />
           </div>
           <div className="variable-input">
-            <p classNAme="description-text">Enter your current credit month sales</p>
+            <p className="description-text">Enter your current period credit sales</p>
             <input type="number" name="CurCrSales" value={this.state.CurCrSales} onChange={this.handleChange} placeholder="Total curr month sales" />
           </div>
           <div className="variable-input">
